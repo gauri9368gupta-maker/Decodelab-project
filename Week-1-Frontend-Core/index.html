@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intern Portal Dashboard</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="container">
+        <!-- =========================SIDEBAR========================= -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <!-- LOGO -->
+                <div class="logo">
+                    <div class="logo-circle">GG</div>
+                    <div class="decode">
+                        <h2>Decode Labs</h2>
+                        <p>Intern Portal</p>
+                    </div>
+                </div>
+
+                <!-- MENU -->
+                <div class="menu">
+                    <div class="menu-item active">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-regular fa-user"></i>
+                        <span>My Profile</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-list-check"></i>
+                        <span>Tasks</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Projects</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>Attendance</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Mentors</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Resources</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Announcements</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-comment"></i>
+                        <span>Feedback</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- =========================MAIN SECTION===================== -->
+        <div class="main">
+            <!-- =========================NAVBAR========================== -->
+            <nav class="navbar">
+                <div class="nav-left">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search anything...">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="nav-icons">
+                        <i class="fa-solid fa-magnifying-glass mobile-search"></i>
+                        <div class="notification-wrapper">
+                            <i class="fa-regular fa-bell"></i>
+                            <span id="notificationCount">2+</span>
+                            <div class="notification-dropdown">
+                                <p>📢 New Project Assigned</p>
+                                <p>📅 Weekly Meeting Tomorrow</p>
+                                <p>🎉 Attendance Updated</p>
+                            </div>
+                        </div>
+                        <div class="message-wrapper">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="message-dropdown">
+                                <p>Aman Verma: Great work!</p>
+                                <p>HR Team: Submit report</p>
+                                <p>Project Lead: Check updates</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-moon" id="darkModeBtn"></i>
+                    </div>
+                    <!-- PROFILE -->
+                    <div class="profile">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png   " alt="profile_picture">
+                        <div class="profile-text">
+                            <h4>Gauri Gupta</h4>
+                            <p>Full Stack Web Developer Intern</p>
+                        </div>
+                        <div class="profile-dropdown">
+                            <p>👤 My Profile</p>
+                            <p>⚙️ Settings</p>
+                            <p>🚪 Logout</p>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+            <!-- =========================MAIN CONTENT========================== -->
+            <div class="content">
+                <!-- =========================LEFT CONTENT========================= -->
+                <div class="left-content">
+                    <!-- ABOUT SECTION -->
+                    <div class="about">
+                        <div>
+                            <h4>Welcome back,</h4>
+                            <h1>Gauri Gupta 👋</h1>
+                            <p> Let's continue coding amazing things today!</p>
+                        </div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" alt="hero">
+                    </div>
+                    <!-- DASHBOARD CARDS -->
+                    <div class="cards">
+                        <!-- CARD 1 -->
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="card-icon">
+                                    <i class="fa-solid fa-list-check"></i>
+                                </div>
+                            </div>
+                            <h2 id="assignedCount">10</h2>
+                            <p>Tasks Assigned</p>
+                        </div>
+                        <!-- CARD 2 -->
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="card-icon">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <h2 id="completedCount">0</h2>
+                            <p>Tasks Completed</p>
+                        </div>
+                        <!-- CARD 3 -->
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="card-icon">
+                                    <i class="fa-solid fa-folder-open"></i>
+                                </div>
+                            </div>
+                            <h2>03</h2>
+                            <p>Projects</p>
+                        </div>
+                        <!-- CARD 4 -->
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="card-icon">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                            </div>
+                            <h2>95%</h2>
+                            <p>Attendance</p>
+                        </div>
+                    </div>
+                    <!-- =========================TASK + MENTOR SECTION========================= -->
+                    <div class="task-section">
+                        <!-- TASKS -->
+                        <div class="tasks">
+                            <div class="upcoming-title">
+                                <h3>Upcoming Tasks</h3>
+                                <a href="#">View All</a>
+                            </div>
+
+                            <!-- Progress Bar -->
+                            <div class="progress-container">
+                                <h4>Task Progress</h4>
+                                <div class="progress">
+                                    <div class="progress-fill" id="progressFill"></div>
+                                </div>
+                                <p id="progressText">0%</p>
+                            </div>
+
+                            <!-- TASK 1 -->
+                            <div class="task">
+                                <div class="task-left">
+                                    <div class="circle"></div>
+                                    <p class="task-text">Build Responsive Dashboard UI</p>
+                                </div>
+                                <span class="badge high">High</span>
+                            </div>
+                            <!-- TASK 2 -->
+                            <div class="task">
+                                <div class="task-left">
+                                    <div class="circle"></div>
+                                    <p class="task-text">Integrate API for User Module</p>
+                                </div>
+                                <span class="badge medium">Medium</span>
+                            </div>
+                            <!-- TASK 3 -->
+                            <div class="task">
+                                <div class="task-left">
+                                    <div class="circle"></div>
+                                    <p class="task-text">Fix Bugs in Authentication Flow</p>
+                                </div>
+                                <span class="badge low">Low</span>
+                            </div>
+                        </div>
+                        <!-- MENTOR SECTION -->
+                        <div class="mentor">
+                            <img src="https://i.pravatar.cc/150?img=12" alt="mentor">
+                            <div class="mentor-title">
+                                <h3>Mentor:- Aman Verma</h3>
+                            </div>
+                            <small>Senior Full Stack Developer</small>
+                            <p> Good code is not just working code, but clean and scalable code. </p>
+                            <button>Message Mentor</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- =========================RIGHT CONTENT========================== -->
+                <div class="right-content">
+                    <!-- ANNOUNCEMENTS -->
+                    <div class="panel">
+                        <div class="announcement-sec">
+                            <div class="announcement-title">
+                                <h3>Announcements</h3>
+                                <a href="#">View All</a>
+                            </div>
+                            <div class="announcement">
+                                <h4>New Project Guidelines</h4>
+                                <p>Please check the new project structure.</p>
+                            </div>
+                            <div class="announcement">
+                                <h4>Weekly Meeting</h4>
+                                <p>Meeting scheduled on Saturday.</p>
+                            </div>
+                            <div class="announcement">
+                                <h4>Holiday Notice</h4>
+                                <p>Office will remain closed on Monday. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RESOURCES -->
+                    <div class="panel">
+                        <div class="resource-sec">
+                            <div class="resource-title">
+                                <h3>Resources</h3>
+                                <a href="#">View All</a>
+                            </div>
+                            <!-- RESOURCE 1 -->
+                            <div class="resource">
+                                <div class="resource-icon">
+                                    <i class="fa-solid fa-file"></i>
+                                </div>
+                                <div>
+                                    <h4>Frontend Development Guide</h4>
+                                    <p>PDF Document</p>
+                                </div>
+                            </div>
+                            <!-- RESOURCE 2 -->
+                            <div class="resource">
+                                <div class="resource-icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div>
+                                    <h4>API Integration Handbook</h4>
+                                    <p>Documentation</p>
+                                </div>
+                            </div>
+                            <!-- RESOURCE 3 -->
+                            <div class="resource">
+                                <div class="resource-icon">
+                                    <i class="fa-solid fa-pen-ruler"></i>
+                                </div>
+                                <div>
+                                    <h4>UI/UX Best Practices</h4>
+                                    <p>Design Resource</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- =========================FOOTER======================== -->
+            <footer class="footer">
+                <p>@ 2026 GAURI GUPTA | Decode Labs Internship | All rights reserved.</p>
+                <div class="footer-links">
+                    <span>Privacy Policy</span>
+                    <span>Terms & Conditions</span>
+                    <span>Support</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
