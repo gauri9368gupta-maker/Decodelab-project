@@ -17,6 +17,13 @@ Intern Portal Dashboard
 - Mentor Section
 - Local Storage Support
 
+## UI Structure
+- No broken Layout
+- No Overflow
+- No Hidden Buttons
+- Images Fit Properly
+- Adaptive Interfaces
+
 ## Preview
 
-![Dashboard Preview](screenshot.png)
+![Dashboard Preview](image.png)
