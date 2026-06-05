@@ -27,3 +27,8 @@ Intern Portal Dashboard
 ## Preview
 
 ![Dashboard Preview](image.png)
+
+## Repository
+
+GitHub Repository:
+https://github.com/gauri9368gupta-maker/Decodelab-project
