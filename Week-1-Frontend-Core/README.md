@@ -33,5 +33,3 @@ Intern Portal Dashboard
 GitHub Repository:
 https://github.com/gauri9368gupta-maker/Decodelab-project
 
-## Live Demo
-https://gauri9368gupta-maker.github.io/Decodelab-project/
