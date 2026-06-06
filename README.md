@@ -15,6 +15,9 @@ This repository contains my weekly progress, projects, and backend/frontend deve
 - HTML, CSS, JavaScript projects
 - UI components and layouts
 
+# Repo Link
+https://gauri9368gupta-maker/Decodelab-project/Week-1-Frontend-Core/
+
 # Live Link
 https://gauri9368gupta-maker.github.io/Decodelab-project/Week-1-Frontend-Core/
 
@@ -23,8 +26,9 @@ https://gauri9368gupta-maker.github.io/Decodelab-project/Week-1-Frontend-Core/
 - Basic API handling
 - Express server implementation
 
-# Live Link
-https://gauri9368gupta-maker.github.io/Decodelab-project/Week-2-Backend-API/
+# Repo Link
+https://gauri9368gupta-maker/Decodelab-project/Week-2-Backend-API/
+
 ---
 
 ## 🛠️ Tech Stack
