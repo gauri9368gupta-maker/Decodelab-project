@@ -15,11 +15,16 @@ This repository contains my weekly progress, projects, and backend/frontend deve
 - HTML, CSS, JavaScript projects
 - UI components and layouts
 
+# Live Link
+https://gauri9368gupta-maker.github.io/Decodelab-project/Week-1-Frontend-Core/
+
 ### Week 2 – Calculator App (Backend Integration)
 - Node.js backend setup
 - Basic API handling
 - Express server implementation
 
+# Live Link
+https://gauri9368gupta-maker.github.io/Decodelab-project/Week-2-Backend-API/
 ---
 
 ## 🛠️ Tech Stack
