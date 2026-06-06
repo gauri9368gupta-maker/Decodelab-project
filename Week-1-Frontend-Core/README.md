@@ -33,3 +33,5 @@ Intern Portal Dashboard
 GitHub Repository:
 https://github.com/gauri9368gupta-maker/Decodelab-project
 
+## Live Link
+https://gauri9368gupta-maker.github.io/Decodelab-project/Week-1-Frontend-Core/
