@@ -38,9 +38,6 @@ POST    /interns          → Create Intern
 PUT     /interns/:id      → Update Intern
 DELETE  /interns/:id      → Delete Intern
 
-
-## Github Repository:
-
 ## Testing
 
 Use Postman to test all API endpoints.
