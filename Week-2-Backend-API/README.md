@@ -46,6 +46,3 @@ Use Postman to test all API endpoints.
 
 ## Repository
 GitHub Repository: https://github.com/gauri9368gupta-maker/Decodelab-project
-
-##Live Link
-https://gauri9368gupta-maker.github.io/Decodelab-project/Week-2-Backend-API/
