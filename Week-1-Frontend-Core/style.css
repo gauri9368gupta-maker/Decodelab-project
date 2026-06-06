@@ -40,6 +40,10 @@ body.dark .resource p {
   color: #bdbdbd;
 }
 
+body.dark .progress-container{
+  background-color: transparent;
+}
+
 .container {
   display: flex;
   min-height: 100vh;
