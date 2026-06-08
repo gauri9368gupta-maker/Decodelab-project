@@ -1,0 +1,13 @@
+{
+  "name": "week-3-database-integration",
+  "version": "1.0.0",
+  "description": "Database Integration Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  }
+}
