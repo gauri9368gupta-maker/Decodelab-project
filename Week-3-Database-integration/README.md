@@ -26,19 +26,6 @@ This project demonstrates database integration using MongoDB and Mongoose with a
 
 ## Project Structure
 
-```text
-Week-3-Database-Integration/
-│
-├── models/
-│   └── Intern.js
-│
-├── db.js
-├── server.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
-
 ## Installation
 
 1. Clone the repository
@@ -70,10 +57,6 @@ node server.js
 ## Database Connection
 
 The application connects to MongoDB using Mongoose:
-
-```javascript
-mongoose.connect("mongodb://127.0.0.1:27017/internPortal");
-```
 
 ## API Endpoints
 
