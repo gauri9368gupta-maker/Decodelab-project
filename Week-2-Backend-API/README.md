@@ -44,5 +44,9 @@ DELETE  /interns/:id      → Delete Intern
 
 Use Postman to test all API endpoints.
 
+## Preview
+
+![Dashboard Preview](image.png)
+
 ## Repository
 GitHub Repository: https://github.com/gauri9368gupta-maker/Decodelab-project
