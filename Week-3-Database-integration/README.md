@@ -79,11 +79,11 @@ mongoose.connect("mongodb://127.0.0.1:27017/internPortal");
 
 ---
 
-# Get All Interns
-# Get Intern By ID
-# Add New Intern
-# Update Intern
-# Delete Intern
+- Get All Interns
+- Get Intern By ID
+- Add New Intern
+- Update Intern
+- Delete Intern
 
 ## Testing
 
@@ -96,6 +96,14 @@ All API endpoints were tested using Postman to verify successful database operat
 * Performing CRUD operations
 * Connecting Node.js applications to a database
 * Building RESTful APIs with persistent data storage
+* 
+## Preview
+
+![Dashboard Preview](delete.png)
+![Dashboard Preview](get.png)
+![Dashboard Preview](post.png)
+![Dashboard Preview](put.png)
+
 
 ## Github Repo Link🔗
 https://github.com/gauri9368gupta-maker/Decodelab-project
