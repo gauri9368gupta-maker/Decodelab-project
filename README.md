@@ -109,4 +109,4 @@ To become a full-stack developer by building real-world projects consistently.
 ---
 
 ## 📬 Connect
-[(Add your LinkedIn here)](https://www.linkedin.com/in/gauri-gupta-a84956361)
+[(LinkedIn)](https://www.linkedin.com/in/gauri-gupta-a84956361)
