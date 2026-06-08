@@ -99,11 +99,10 @@ All API endpoints were tested using Postman to verify successful database operat
 * 
 ## Preview
 
-![Dashboard Preview](delete.png)
-![Dashboard Preview](get.png)
-![Dashboard Preview](post.png)
-![Dashboard Preview](put.png)
-
+![GET Request](image/get.png)
+![POST Request](image/post.png)
+![PUT Request](image/put.png)
+![DELETE Request](image/delete.png)
 
 ## Github Repo Link🔗
 https://github.com/gauri9368gupta-maker/Decodelab-project
